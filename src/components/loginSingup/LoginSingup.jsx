@@ -13,21 +13,28 @@ const LoginSingup = () => {
             </div>
             <div className="inputs">
                 <div className="input">
-                    <img src={user_icon} alt="user" />
-                    <input type="text" placeholder="Username" />
+                    <img src={user_icon} alt="" />
+                    <input type="text" />
                 </div>
                 <div className="input">
-                    <img src={email_icon} alt="email" />
-                    <input type="email" placeholder="Email" />
+                    <img src={email_icon} alt="" />
+                    <input type="email" />
                 </div>
                 <div className="input">
-                    <img src={password_icon} alt="password" />
-                    <input type="password" placeholder="Password" />
+                    <img src={password_icon} alt="" />
+                    <input type="password" />
                 </div>
 
             </div>
+            <div className="forgot-password">Lost Password? <span>Click Here!</span> </div>
+
+
+            <div className="submit-container">
+                <div className="submit">Sing Up</div>
+                <div className="submit">Login</div>
+            </div>
         </div>
-    )
-}
+    );
+};
 
 export default LoginSingup
