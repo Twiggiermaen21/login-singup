@@ -1,8 +1,8 @@
 import React from 'react'
-import './loginSingup.css';
-import user_icon from '../assets/user.png';
-import email_icon from '../assets/email.png';
-import password_icon from '../assets/password.png';
+import './LoginSingup.css';
+import user_icon from '../Assets/person.png';
+import email_icon from '../Assets/email.png';
+import password_icon from '../Assets/password.png';
 
 const LoginSingup = () => {
     return (
@@ -18,7 +18,7 @@ const LoginSingup = () => {
                 </div>
                 <div className="input">
                     <img src={email_icon} alt="email" />
-                    <input type="text" placeholder="Email" />
+                    <input type="email" placeholder="Email" />
                 </div>
                 <div className="input">
                     <img src={password_icon} alt="password" />
