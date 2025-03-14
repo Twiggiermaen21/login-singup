@@ -90,5 +90,13 @@
     height: 59px;
     color: #fff;
     background: #4c00b4;
+    font-size: 19px;
+    border-radius: 50px;
+    font-weight: 700;
+    cursor: pointer;
+}
 
+.gray {
+    background: #eaeaea;
+    color: #797979;
 }
