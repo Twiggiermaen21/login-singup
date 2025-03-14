@@ -31,7 +31,8 @@ const LoginSingup = () => {
                 </div>
 
             </div>
-            <div className="forgot-password">Lost Password? <span>Click Here!</span> </div>
+
+            {action === "Login" ? <div className="forgot-password">Forgot Password? <span>Click Here!</span> </div> : ''}
 
 
             <div className="submit-container">
